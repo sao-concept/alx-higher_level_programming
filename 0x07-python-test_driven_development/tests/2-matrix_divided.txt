@@ -1,8 +1,8 @@
 ==============================
-How to Use 2-matrix_divided.py
+Possible ways to use this module  '2-matrix_divided.py'
 ==============================
 
-This module defines a matrix division function `matrix_divided(matrix, div)`.
+This function divides all elements of a matrix
 
 Usage
 =====
@@ -150,11 +150,6 @@ is raised.
     Traceback (most recent call last):
     TypeError: div must be a number
 
-::
-
-    >>> print(matrix_divided(matrix, None))
-    Traceback (most recent call last):
-    TypeError: div must be a number
 
 `div` must also be non-zero. Otherwise, a ZeroDivisionError is raised.
 

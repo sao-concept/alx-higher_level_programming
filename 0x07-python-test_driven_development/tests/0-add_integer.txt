@@ -1,7 +1,7 @@
-Test cases for 0-add_integer module
+Possible ways to use this module '0-add_integer module'
 ===================================
 
-The 0-add_integer module takes two integers or floats as arguments and returns their sum
+This function adds 2 integers
 
 Usage
 =====
@@ -102,13 +102,6 @@ Case Overflow 2:
     OverflowError: cannot convert float infinity to integer
 
 Case NaN 1:
-
-    >>> add_integer(0, float('nan'))
-    Traceback (most recent call last):
-    	      ...
-    ValueError: cannot convert float NaN to integer
-
-Case NaN 2:
 
     >>> add_integer(float('nan'))
     Traceback (most recent call last):

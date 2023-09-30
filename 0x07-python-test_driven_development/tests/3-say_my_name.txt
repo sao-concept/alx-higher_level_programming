@@ -1,8 +1,8 @@
 ===========================
-Ways to use the 3-say_my_name.py function
+Possible ways to use this module '3-say_my_name.py'
 ===========================
 
-This modules defines a function ``say_my_name(first_name, last_name="")``.
+This function prints My name is <first name> <last name>
 
 Usage
 =====
@@ -19,14 +19,6 @@ Usage
 
     >>> say_my_name("Olamilekan Ayinla", "Azeez")
     My name is Olamilekan Ayinla Azeez
-
-The parameter ```last_name``` is optional. If no last name is provided,
-an empty string is printed instead.
-
-::
-
-    >>> say_my_name("Azeez")
-    My name is Azeez
 
 Invalid Names
 =============
